@@ -1,0 +1,62 @@
+.img-post-long{
+  width: 100%;
+  min-height: 400px;
+}
+.malla-s{
+  width: 100%;
+  min-height: 400px;
+  background: #1b1e21b5;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  border-bottom: 3px solid #fd4200;
+}
+.malla-s:hover{
+  background: #1b1e2169;
+}
+.container article .entry-header {
+	text-align: center;
+}
+.entry-meta{
+	color: #9b9b9b;
+    font-style: italic;
+}
+#side-bar-s{
+	padding-top: 5em;
+}
+.screen-reader-text{
+	display: none;
+}
+.screen-reader-text + input#s{
+	display: block;
+    width: 60%;
+    float: left;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+input#s + input[type="submit"]{
+	width: 35%;
+	padding: .3em;
+	float: right;
+	background: transparent;
+    border-radius: 6px;
+    border: solid 1px #191919;
+}
+input#s + input[type="submit"]:hover{
+	background: #000;
+	color: #fff;
+}
+input#s:hover input#s + input[type="submit"]{
+	width: 20%;
+}
+#searchform{
+	height: 45px;
+}

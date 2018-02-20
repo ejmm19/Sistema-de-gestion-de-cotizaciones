@@ -1,0 +1,189 @@
+/*
+Theme Name: HandcraftedWP
+
+All your awesome Editor Styles go here, we like WYSIWYG
+
+*/
+
+@import "https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i";
+body{
+  background: #f8f8f8 !important;
+}
+#nav-movil{
+  display: none;
+}
+.container{
+  background: #fff;
+}
+#logo-inicial img{
+  width: 190px;
+}
+#nav-inicial{
+  border-bottom: 2px solid #3a1282;
+}
+#nav-inicial a.item-a{
+  color: #5d5d5d;
+  text-transform: uppercase;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700 !important;
+  letter-spacing: .8px;
+  font-size: .9em;
+}
+#nav-inicial a.item-a:hover{
+  color: #000;
+}
+#slider-inicial{
+  border-bottom: solid 3px #fd4201;
+}
+#slider-inicial .carousel-inner .carousel-item{
+  max-height: 500px;
+}
+.borde{
+  border: 3px solid #f8f8f8;
+}
+.img-post{
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.img-post img{
+  width: 100%;
+  max-width: 100%;
+  -webkit-perspective: initial !important;
+  perspective: initial !important;
+}
+.img-post img:hover{
+
+}
+.titulo-post{
+  text-align: justify;
+}
+.fecha-post{
+  color: #9b9b9b;
+  font-style: italic;
+}
+.btn-leer-mas{
+  border: solid 1px #3a1282;
+  padding: 5px;
+  color: #3a1282;
+}
+.btn-leer-mas:hover{
+  text-decoration: none;
+  border: solid 1px #0056b3;
+}
+#paralax{
+  width: 100%;
+  height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#encima-paralax{
+  width: 100%;
+  height: 300px;
+  background: #0009;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+#encima-paralax hr{
+  width: 2%;
+  background: #fbfbfb;
+}
+#encima-paralax:hover{
+  background: #0003;
+}
+#paralax span, #paralax p, #paralax h5, #paralax h4{
+  color:#fff;
+}
+#paralax h4{
+  text-transform: uppercase;
+ }
+.info-post-destacado span{
+  font-style: italic;
+}
+.a-paralax-leer-mas{
+  border: 1px solid #fff;
+  padding: 10px;
+  color: #fff;
+}
+.a-paralax-leer-mas:hover{
+  color: #000;
+  text-decoration: none;
+  background: #fff;
+}
+#hr-baja{
+  height: 4px;
+  background: #3a1282;
+  margin-bottom: 30px;
+  width: 100%;
+}
+#img-bj-3{
+  min-height: 162px;
+}
+#slider-bajo-noticias .carousel-inner .carousel-caption{
+  background: #0000007d;
+}
+#noticias-bottom h5,#noticias-bottom p{
+  color: #fff;
+}
+.div-bg-img{
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  background-size: 100% !important;
+}
+.div-bg-img:hover{
+  background-size: 110% !important;
+  background-position-x: 10% !important;
+}
+.contenido-post-pq{
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  border-radius: 6px;
+  background: #0000005e;
+}
+.div-bg-img:hover .contenido-post-pq{
+  background: #000000bd;
+}
+.contenido-post-pq a:hover{
+  text-decoration:none;
+}
+#colophon{
+  background: #191919;
+  border-top: 3px solid #fd4200;
+  color: #8e8e8e;
+  font-size: .8em;
+}
+#colophon .container{
+  background: none;
+}
+#footer-bajo{
+  background: #000;
+  font-size: .8em;
+}
+#suscribirse{
+  border: solid 1px #f8f8f8;
+  color: #f8f8f8;
+  font-size: .8em;
+}
+#suscribirse:hover{
+  text-decoration: none;
+  color: #cecece;
+  border: solid 1px #cecece;
+}
+
+@media only screen and (max-width: 768px) {
+    #nav-inicial{
+      display: none;
+    }
+    #nav-movil{
+      display: block;
+    }
+}
