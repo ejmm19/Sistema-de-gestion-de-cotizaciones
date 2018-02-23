@@ -1,0 +1,50 @@
+@font-face {
+    font-family: Helvetica-font;
+    src: url(../fonts/HelveticaNeue-Roman.otf);
+}
+@font-face {
+    font-family: Helvetica-font-bold;
+    src: url(../fonts/HelveticaNeueBold.ttf);
+}
+#siete-preview{
+  border: solid 1px #cecece;
+}
+/* #siete-preview legend{
+  text-align: center;
+} */
+.texto-alterno{
+  height: 25px;
+  font-size: .8em;
+}
+.ciudades{
+  border-left: solid 1px #c80e135c;
+}
+#ciudad a{
+  font-size: .7em;
+  margin: 0px 10px;
+  padding: 3px 10px;
+}
+.preview{
+    font-family: Helvetica-font;
+}
+.preview b{
+  font-family: Helvetica-font-bold;
+}
+#mail h4.ciudad-name{
+  font-size: .9em;
+  text-align: center;
+  text-transform: uppercase;
+}
+#mail p{
+  font-size: .6em;
+  margin-bottom: 2px;
+}
+#text-llamada p{
+  font-size: .9em;
+}
+#paginas-contacto p{
+  text-align: center;
+}
+#paginas-contacto p a{
+  color: #c80e13;
+}
